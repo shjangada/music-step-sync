@@ -6,6 +6,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Spotify></Spotify>
+      <Button
+        title="Press me"
+        onPress={() => Alert.alert('Simple Button pressed')}
+      />
       <Steps></Steps>
     </View>
   );
